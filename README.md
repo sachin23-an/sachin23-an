@@ -1,5 +1,4 @@
 
-readme_professional = '''<div align="center">
 
 # Sachin Kumar
 
@@ -137,15 +136,8 @@ Supervised learning pipeline for next-day direction prediction on NSE stocks. Fe
 - **Phone:** +91 7004483811
 - **LinkedIn:** [linkedin.com/in/sachin-kumar-6b5609257](https://linkedin.com/in/sachin-kumar-6b5609257)
 - **GitHub:** [github.com/sachin23-an](https://github.com/sachin23-an)
-- **Location:** Dhanbad, Jharkhand · Open to remote roles and relocation
+- **Location:** Chennai, Tamil Nadu · Open to remote roles and relocation
 
 ---
 
-*Last updated: June 2026*
-'''
 
-with open('/mnt/agents/output/README_professional.md', 'w', encoding='utf-8') as f:
-    f.write(readme_professional)
-
-print("Professional README saved!")
-print(f"Size: {len(readme_professional)} characters")
