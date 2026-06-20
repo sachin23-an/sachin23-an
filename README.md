@@ -16,7 +16,7 @@ IIT Madras, B.S. Data Science & Applications
 
 I build quantitative research tools and trading infrastructure from first principles. My work spans backtesting engines, time series forecasting, derivatives pricing, and risk measurement — all implemented in Python with production-ready code quality and reproducible research practices.
 
-Currently pursuing B.S. Data Science at IIT Madras (online program, 2023–2027). I focus on the intersection of statistical modelling, financial markets, and systematic strategy development.
+Currently pursuing B.S. Data Science at IIT Madras. I focus on the intersection of statistical modelling, financial markets, and systematic strategy development.
 
 ---
 
