@@ -1,5 +1,4 @@
-
-portfolio_html = '''<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -110,6 +109,7 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-
   .project-card{padding:18px 20px}
 }
 </style>
+<base target="_blank">
 </head>
 <body>
 
@@ -160,7 +160,7 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-
 <div class="section">
   <div class="section-title">Projects</div>
   <div class="project-grid">
-    
+
     <div class="project-card">
       <div class="project-head">
         <span class="project-num">01</span>
@@ -356,10 +356,4 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-
 </div>
 
 </body>
-</html>'''
-
-with open('/mnt/agents/output/portfolio.html', 'w', encoding='utf-8') as f:
-    f.write(portfolio_html)
-
-print("Portfolio HTML created!")
-print(f"Size: {len(portfolio_html):,} chars")
+</html>
