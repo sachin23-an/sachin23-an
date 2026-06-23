@@ -1,24 +1,41 @@
-<div align="center">
 Sachin Kumar
 Quantitative Research · Risk Analytics · Algorithmic Trading
 IIT Madras, B.S. Data Science & Applications
 LinkedIn · GitHub
-</div>
 Research
 The Complexity Trap: A Comparative Analysis of Classical and Machine Learning Trading Strategies on the NIFTY 50 Index — Working Paper, June 2026
 Compared six strategies (buy-and-hold to LSTM) on NIFTY 50 over 5 years. Evaluated after realistic Indian transaction costs, not just gross returns. Result: a 10-line moving average beats a deep learning model after costs. Introduced the Complexity Penalty metric (Gross Sharpe − Net Sharpe) to quantify this effect.
 Key finding: XGBoost gross Sharpe 0.78 → net Sharpe 0.19 after costs. SMA crossover gross Sharpe 0.52 → net Sharpe 0.48. Model sophistication and real-world profitability are inversely related after transaction costs.
 Repository · Colab Notebook · PDF
 Projects
-Table
-#	Project	Stack	What It Does	Status
-1	the-complexity-trap	Python, pandas, NumPy, scikit-learn, XGBoost, TensorFlow/Keras	6-strategy comparison on NIFTY 50 with cost-aware evaluation and leakage audit framework	🔬 Research
-2	backtesting-engine	Python, pandas, NumPy, SciPy, yfinance	Vectorised SMA + Bollinger backtest with Sharpe, CAGR, MaxDD, Monte Carlo simulation	✅ Complete
-3	nifty-timeseries	Python, statsmodels, arch, matplotlib	ADF/KPSS, ACF/PACF, ARIMA, GARCH(1,1) volatility, 5-day forecast with 95% CI	✅ Complete
-4	options-pricer	Python, NumPy, SciPy, matplotlib	Black-Scholes from scratch, analytical Greeks, Newton-Raphson IV solver, 3D IV surface	✅ Complete
-5	pairs-trading	Python, statsmodels, SciPy, pandas	Engle-Granger cointegration, OLS hedge ratio, z-score signals, walk-forward backtest	✅ Complete
-6	var-dashboard	Python, NumPy, SciPy, matplotlib, seaborn	4-method VaR + CVaR: Historical, Parametric, Monte Carlo, Cornish-Fisher	✅ Complete
-7	ml-for-quant	Python, scikit-learn, XGBoost, pandas	Next-day direction prediction with 17 engineered features, TimeSeriesSplit validation, leakage audit	✅ Complete
+1. the-complexity-trap
+Python · pandas · NumPy · scikit-learn · XGBoost · TensorFlow/Keras
+Master Colab notebook implementing all six strategies from the research paper with cost-aware evaluation and leakage audit framework.
+Repository · 🔬 Research
+2. backtesting-engine
+Python · pandas · NumPy · SciPy · yfinance
+Vectorised SMA + Bollinger backtest with Sharpe, CAGR, MaxDD, Monte Carlo simulation. 1,000-path resampling preserving autocorrelation structure.
+Repository · ✅ Complete
+3. nifty-timeseries
+Python · statsmodels · arch · matplotlib
+ADF/KPSS stationarity, ACF/PACF, ARIMA, GARCH(1,1) volatility. 5-day ahead forecast with 95% CI. Validated with Ljung-Box test.
+Repository · ✅ Complete
+4. options-pricer
+Python · NumPy · SciPy · matplotlib
+Black-Scholes from scratch, analytical Greeks, Newton-Raphson IV solver, 3D IV surface. No QuantLib dependency.
+Repository · ✅ Complete
+5. pairs-trading
+Python · statsmodels · SciPy · pandas
+Engle-Granger cointegration, OLS hedge ratio, z-score signals, walk-forward backtest. FDR correction on 25 stock pairs.
+Repository · ✅ Complete
+6. var-dashboard
+Python · NumPy · SciPy · matplotlib · seaborn
+4-method VaR + CVaR: Historical, Parametric, Monte Carlo, Cornish-Fisher. 2x2 comparison matrix. Cornish-Fisher included for leptokurtic NSE distributions.
+Repository · ✅ Complete
+7. ml-for-quant
+Python · scikit-learn · XGBoost · pandas
+Next-day direction prediction with 17 engineered features. TimeSeriesSplit validation, leakage audit, feature selection on training data only.
+Repository · ✅ Complete
 Skills
 Languages: Python (advanced), SQL, Bash/Linux
 Data & ML: pandas, NumPy, SciPy, statsmodels, scikit-learn, XGBoost, TensorFlow/Keras, feature engineering, time-series validation, hyperparameter tuning
