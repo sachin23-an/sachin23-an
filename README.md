@@ -117,4 +117,4 @@ LinkedIn: [linkedin.com/in/sachin-kumar-6b5609257](https://linkedin.com/in/sachi
 
 GitHub: [github.com/sachin23-an](https://github.com/sachin23-an)
 
-Location: Dhanbad, Jharkhand | Open to remote roles and relocation
+Location: Saket, New Delhi | Open to remote roles and relocation
